@@ -1518,12 +1518,12 @@ public class FloatingSearchView extends FrameLayout {
             mSearchInput.setLongClickable(false);
             if (mFocusChangeListener != null) {
                 mFocusChangeListener.onFocusCleared();
-            }*/
+            }
         }
 
         //if we don't have focus, we want to allow the client's views below our invisible
         //screen-covering view to handle touches
-        mSuggestionsSection.setEnabled(focused);
+        mSuggestionsSection.setEnabled(focused);*/
     }
 
     private void changeIcon(ImageView imageView, Drawable newIcon, boolean withAnim) {
