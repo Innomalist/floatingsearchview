@@ -1472,7 +1472,7 @@ public class FloatingSearchView extends FrameLayout {
     private void setSearchFocusedInternal(final boolean focused) {
         this.mIsFocused = focused;
 
-        if (focused) {
+        /*if (focused) {
             mSearchInput.requestFocus();
             moveSuggestListToInitialPos();
             mSuggestionsSection.setVisibility(VISIBLE);
@@ -1518,7 +1518,7 @@ public class FloatingSearchView extends FrameLayout {
             mSearchInput.setLongClickable(false);
             if (mFocusChangeListener != null) {
                 mFocusChangeListener.onFocusCleared();
-            }
+            }*/
         }
 
         //if we don't have focus, we want to allow the client's views below our invisible
