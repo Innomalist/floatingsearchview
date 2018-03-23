@@ -1484,7 +1484,7 @@ public class FloatingSearchView extends FrameLayout {
             transitionInLeftSection(true);
             Util.showSoftKeyboard(getContext(), mSearchInput);
             if (mMenuOpen) {
-                closeMenu(false);
+                //closeMenu(false);
             }
             if (mIsTitleSet) {
                 mSkipTextChangeEvent = true;
